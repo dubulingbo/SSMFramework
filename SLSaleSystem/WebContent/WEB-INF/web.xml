@@ -52,8 +52,8 @@
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-	
-	<!-- log4j配置 -->
+	<!-- 
+	log4j配置
 	<context-param>
 		<param-name>log4jConfigLocation</param-name>
 		<param-value>classpath:log4j.properties</param-value>
@@ -63,9 +63,9 @@
 		<param-value>SLSaleSystem.root</param-value>
 	</context-param>
 	
-	<!-- spring加载log4j的监听，这样log4j才能起作用 -->
+	spring加载log4j的监听，这样log4j才能起作用
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
-	
+	 -->
 </web-app>
